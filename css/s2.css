@@ -1,0 +1,87 @@
+/* Settings Page -- CSS */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Top Section */
+#top {
+    background-color: #008b8b;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation */
+.nav-item {
+    padding-right: 40px;
+}
+
+/* Settings Content */
+.main-settings {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.pl-name {
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.cn-head {
+    font-size: 40px;
+    color: firebrick;
+}
+
+.cn-names {
+    padding-top: 25px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background-color: #28a745;
+    border: none;
+    font-size: 18px;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    float: right;
+}
+
+.btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+/* Footer */
+#footer {
+    padding: 30px 0;
+    background-color: lightyellow;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.link-icon {
+    color: black;
+    font-size: 20px;
+    padding: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.link-icon:hover {
+    color: #008b8b;
+}

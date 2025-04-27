@@ -1,0 +1,79 @@
+/* Result Page -- CSS */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Top Section */
+#top {
+    background-color: #228B22;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation */
+.nav-item {
+    padding-right: 40px;
+}
+
+/* Results Content */
+.main-results {
+    padding: 30px 20px;
+    text-align: center;
+    margin: auto;
+}
+
+/* Styled Table */
+.styled-table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: white;
+    text-align: center;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #d1ecf1;
+    cursor: pointer;
+}
+
+/* Footer */
+#footer {
+    padding: 30px 0;
+    background-color: lightyellow;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.link-icon {
+    color: black;
+    font-size: 20px;
+    padding: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.link-icon:hover {
+    color: #009879;
+}
